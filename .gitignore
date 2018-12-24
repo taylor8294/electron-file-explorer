@@ -5,6 +5,7 @@
 /electron/dist
 /tmp
 /out-tsc
+/src/assets/icons
 
 # dependencies
 /node_modules
@@ -45,6 +46,3 @@ package-lock.json
 # System Files
 .DS_Store
 Thumbs.db
-
-#Icons
-src/assets/icons/

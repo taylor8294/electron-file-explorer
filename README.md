@@ -20,6 +20,7 @@ Run `npm run build && npm run electron`, the SVG icons needed in `src/assets/ico
 ## To do
 
 * Only tested on windows
+* Add electron-packager
 * ...
 
 (This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3)
