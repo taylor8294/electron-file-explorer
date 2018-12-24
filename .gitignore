@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/electron/dist
 /tmp
 /out-tsc
 
@@ -20,6 +21,7 @@ speed-measure-plugin.json
 *.launch
 .settings/
 *.sublime-workspace
+.git/
 
 # IDE - VSCode
 .vscode/*
@@ -37,7 +39,12 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+package-lock.json
+**/tslint.json
 
 # System Files
 .DS_Store
 Thumbs.db
+
+#Icons
+src/assets/icons/

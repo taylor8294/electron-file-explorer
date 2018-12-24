@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>
+  {{ elementName ? 'Rename '+(isDir ? 'folder' : 'file') : 'Create a new folder' }}
+</h1>
+
+<mat-dialog-content>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="{{ isDir ? 'Folder' : 'File'}} Name" [(ngModel)]="elementName">
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close>Cancel</button>
+  <button mat-raised-button [mat-dialog-close]="elementName" color="primary">OK</button>
+</mat-dialog-actions>
